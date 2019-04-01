@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/uikit-new.css"/>
+         <link rel="stylesheet" href="css/components/accordion.min.css"/>
+
+        <link rel="stylesheet" href="css/styles.css"/>
+
+        <title>Greensight test 1200-768</title>
+
+        </head>
+        <body>
+
+
+
+<!--Greensight_Test_1200-->
+
+<div class="uk-container uk-container-center">
+<h2>Выберите способ доставки</h2>
+</div>
+
+<div class="uk-container uk-container-center">
+   <ul class="uk-tab" data-uk-switcher="{connect:'#tabs'}">
+    <li id="delivery" class="uk-active"><a href="">Доставка</a></li>
+    <li id="pickup"><a href="">Самовывоз</a></li>
+</ul>
+</div>
+<ul id="tabs" class="uk-switcher">
+    <li id="delivery">
+       
+<div class="formas uk-grid uk-container uk-container-center">     
+<div class="uk-width-1-2">
+<h3>ФИО</h3>
+<form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-large uk-width-1-1" id="code" type="text" name="name" placeholder="Только кириллица" required>
+</div>
+</div>
+
+
+<div class="uk-width-1-2">
+   
+<h3>Телефон</h3>
+ <form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-large uk-width-1-1" id="phone2" name="phone" type="tel" placeholder="+7(_ _ _) _ _ _-_ _ _- _ _ _" required>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="uk-container uk-container-center">
+<h3>Адрес доставки</h3>
+<form class="uk-form">
+
+<div class="uk-form-row">
+<input class=" uk-form-large uk-width-1-1" type="text" name="name" placeholder="Город,улица,дом" required>
+</div>
+
+<h3>Коментарии</h3>
+
+<div class="uk-form-row">                               
+<textarea class="coments uk-form-large uk-width-1-1"  name="msg" rows="5" required></textarea>
+</div>
+
+<div class="test_1200 uk-container uk-container-center">
+<div class="button uk-form-row">
+<input type="submit" name="submit" class="uka uk-button" value="Отправить">
+</div>
+</div>
+</form>
+    
+    <li id="pickup">    
+<form class="uk-form">
+    <div class="uk-grid uk-container uk-container-center">
+    <div class="uk-width-1-2"><input id="form-s-r1" name="radio2" checked="" type="radio"> <label for="form-s-r1"> Пункт Выдачи заказов Песчаная улица, дом 13</label></div>
+    <div class="uk-width-1-2"><label><input name="radio2" type="radio">  Пункт Выдачи заказов Подсосенский переулок, дом 11</label></div>
+</div>
+</form>
+
+        <div class="uk-container uk-container-center">
+       <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af867a73e767f0cf8a6861c1ac18b957f478f9bf146bb6af9afcb218243712f93&amp;width=100%25&amp;height=578&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+
+    <div class="uk-container uk-container-center">
+<div class="button uk-form-row">
+<input type="submit" name="submit" class="uka uk-button" value="Отправить">
+</div>
+</div>
+    </li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+<!--Greensight_Test_768-->
+
+
+
+                                
+
+
+<div class="test_768 uk-accordion" data-uk-accordion>
+
+    <h3 class="dostavka uk-accordion-icon uk-accordion-title">Доставка</h3>
+                            <div class="uk-accordion-content ">
+                                    
+ <h3>ФИО</h3>
+<form class="uk-form" id="text">
+<div class="uk-form-row">
+<input class="uk-form-large uk-width-1-1" id="code2" type="text" name="name" placeholder="Только кириллица" required>
+</div>
+
+
+<h3>Телефон</h3>
+<form class="uk-form">    
+<div class="uk-form-row">
+<input class="uk-form-large uk-width-1-1" id="phone" name="phone" type="tel" placeholder="+7(_ _ _) _ _ _-_ _ _- _ _ _" required>
+</div>
+
+<h3>Адрес доставки</h3>
+<form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-large uk-width-1-1" type="text" name="name" placeholder="Город,улица,дом" required>
+</div>
+
+<h3>Коментарии</h3>
+<div class="uk-form-row">                               
+<textarea class="coments uk-form-large uk-width-1-1" name="msg" rows="5" required></textarea>
+</div>
+
+<div class=" uk-container uk-container-center">
+<div class="button uk-form-row">
+<input type="submit" name="submit" class="uka uk-button" value="Отправить">
+</div>
+</div>
+
+
+</div>
+
+
+    <h3 class="samovizov uk-accordion-title">Самовызов</h3>
+    <div class="uk-accordion-content"> 
+        <form class="uk-form">
+    <div class="uk-grid uk-container uk-container-center">
+    <div class="uk-width-1-1"><input id="form-s-r1" name="radio2" checked="" type="radio"> <label for="form-s-r1"> Пункт Выдачи заказов Песчаная улица, дом 13</label></div>
+    <div class="uk-width-1-1"><label><input name="radio2" type="radio">  Пункт Выдачи заказов Подсосенский переулок, дом 11</label></div>
+</div>
+</form>
+        
+        <div class="uk-container uk-container-center">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af867a73e767f0cf8a6861c1ac18b957f478f9bf146bb6af9afcb218243712f93&amp;width=100%25&amp;height=578&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+        <div class="uk-container uk-container-center">
+<div class="button uk-form-row">
+<input type="submit" name="submit" class="uka uk-button" value="Отправить">
+</div>
+</div>
+</div>
+
+  
+
+</div>
+
+
+    
+
+
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/validate.js"></script>
+        <script src="js/uikit.min.js"></script> 
+        <script src="js/components/accordion.min.js"></script> 
+        </body>
+    
+        </html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/uikit-new.css"/>
+         <link rel="stylesheet" href="css/components/accordion.min.css"/>
+
+        <link rel="stylesheet" href="css/styles.css"/>
+      
+        <title>Greensite test UI Kit</title>
+        </head>
+        <body>
+
+
+
+<!--Greensight_UI Kit-->
+<div class="uk-container uk-container-center"><h2>UI Kit</h2></div>   
+<div class="uk-grid uk-container uk-container-center">     
+
+
+
+<div class="uk-width-small-1-1 uk-width-medium-1-2">
+<div class="uk-grid "> 
+<div class="uk-width-small-1-1 uk-width-medium-1-2">
+    <h2>Chekbox & Radio</h2>
+    </div>
+
+<div class="uk-width-small-1-1 uk-width-medium-1-2"><form class="uk-form">
+<ul>
+   <li ><input id="form-s-r1" name="radio2" checked="" type="radio"> <label for="form-s-r1"> Radio normal</label></li> 
+    <li class="hovver"><label><input name="radio2" type="radio"> Radio hover</label></li> 
+     <li><label><input name="radio2" type="radio">  Radio selected</label></li>
+     <li class="dis"><label><input name="radio2" type="radio" disabled>  Radio disabled</label></li>  
+</ul>
+ <span><h2>Buttons</h2></span>
+<ul>
+   <li>
+<div class="button uk-form-row">
+<input type="submit" name="submit" class="butnorm uk-button" value="Button normal"></div></li> 
+    <li>
+<div class="button uk-form-row">
+<input type="submit" name="submit" class="buthov uk-button" value="Button hover"></div></li> 
+      <li>
+<div class="button uk-form-row">
+<input type="submit" name="submit" class="butpres uk-button" value="Button pressed"></div></li>
+     <li>
+<div class="button uk-form-row">
+<input type="submit" name="submit" class="butdis uk-button" value="Button disabled" disabled></div></li> 
+</ul>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="uk-width-small-1-1 uk-width-medium-1-2 ">
+<div class="uk-grid "> 
+<div class="uk-width-small-1-1 uk-width-medium-1-2"><h2>Forms</h2></div>
+<div class="uk-width-small-1-1 uk-width-medium-1-2"><form class="uk-form">
+<ul>
+   <li><div>
+<h3>Input</h3>
+<form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-small uk-form-width-small" type="text" name="name" placeholder="placeholder" required>
+</div></li> 
+       <li><div>
+<h3>Input hover</h3>
+<form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-small uk-form-width-small" type="text" name="name" placeholder="placeholder" required>
+</div></li>
+       <li><div>
+<h3>Input focus</h3>
+<form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-small uk-form-width-small" type="text" name="name" placeholder="placeholder" required>
+</div></li> 
+<h3>Input done</h3>
+<form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-small uk-form-width-small" type="text" name="name" placeholder="placeholder" required>
+</div></li> 
+       <li><div>
+<h3 class="inputdis">Input disabled</h3>
+<form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-small uk-form-width-small" type="text" name="name" placeholder="placeholder" disabled>
+</div></li>
+       <li><div>
+<h3>Input error</h3>
+<form class="uk-form">
+<div class="uk-form-row">
+<input class="uk-form-small uk-form-width-small uk-form-danger" id="cod" type="text" name="error" placeholder="placeholder" required >
+</div></li> 
+
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="test_tabs uk-container uk-container-center">
+    <div class="uk-grid">
+    <div class="uk-width-small-1-1 uk-width-medium-3-10">
+<h2>Tabs</h2>
+</div>
+
+  <div class="uk-width-small-1-1 uk-width-medium-7-10">
+   <ul class="tabs uk-tab" data-uk-switcher="{connect:'#tabs'}">
+    <li id="session" class="uk-active"><a href="">Tabs 1</a></li>
+    <li id="help"><a href="">Tabs 2</a></li>
+     <li id="help"><a href="">Tabs 3</a></li>
+      <li id="help"><a href="">Tabs 4</a>.</li>
+</ul>
+
+<ul id="tabs" class="uk-switcher">
+    <li id="session">
+    <li id="help">    
+
+</li>
+
+</ul>
+<ul class="tabs uk-tab" data-uk-switcher="{connect:'#tabs'}">
+    <li id="session" ><a href="">Tabs 1</a></li>
+    <li id="help"><a href="">Tabs 2</a></li>
+     <li id="help" class="uk-active"><a href="">Tabs 3</a></li>
+      <li id="help"><a href="">Tabs 4</a></li>
+</ul>
+
+<ul id="tabs" class="uk-switcher">
+    <li id="session">
+    <li id="help">    
+
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="test_768 uk-accordion" data-uk-accordion>
+    <div class="uk-container uk-container-center">
+<h2>Tabs</h2>
+     <h3 class="samovizov uk-accordion-title">Open tab</h3>
+    <div class="uk-accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+    <h3 class="uk-accordion-title">Close tab</h3>
+    <div class="uk-accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+      <h3 class="samovizov uk-accordion-title">Close tab hover</h3>
+    <div class="uk-accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</div>
+</div>
+
+
+
+
+
+
+
+    
+
+
+        <script src="js/jquery.js"></script>
+         <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+         <script src="js/validate.js"></script>
+        <script src="js/uikit.min.js"></script> 
+        <script src="js/components/accordion.min.js"></script> 
+        </body>
+    
+        </html>

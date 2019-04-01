@@ -1,0 +1,194 @@
+.uk-container {
+    padding: 10px 35px;
+}
+
+
+
+
+/*Test 1220*/
+.uk-tab > li.uk-active > a {
+    color:blue;
+}
+
+
+
+.uk-tab > li > a {
+  color:#898fa7;
+  background-color:#edeeef;
+}
+
+
+/*Forms*/
+
+
+.formas{
+  padding-left:5px;
+}
+
+.uka{
+  position: relative;
+  float: right;
+padding:10px 50px;
+background-color: blue;
+}
+
+.uk-button{
+   border-radius:40px;
+   color: white;
+}
+
+.uk-form input{
+  border-radius:40px;
+}
+
+.button{
+margin-top:30px;
+border-radius: 10px;
+color: white;
+}
+
+
+
+/*Test 768*/
+.dostavka{
+  color: blue;
+}
+
+.samovizov{
+  color:blue;
+}
+
+
+
+
+
+
+
+/*Test UI Kit*/
+
+h2{
+  margin: 10px 0px;
+
+}
+
+h3{
+  padding-top: 10px;
+}
+.chekradio{
+  position: relative;
+  float: left;
+}
+
+.form2{
+  margin-top:0px;
+}
+
+   li {
+    list-style-type: none; 
+   }
+   ul {
+    margin-left: 0; 
+    padding-left: 0; 
+   }
+
+   .hovver{
+    color:blue;
+   }
+
+ span{
+  position: absolute;
+  margin-left: -280px;
+ }  
+
+.dis{
+  color:#D1D1D1;
+}
+
+.inputdis{
+  color: #D0D0D0;
+}
+
+
+.butnorm{
+  padding:10px 50px;
+background-color: #4f4fff;
+}
+
+.buthov{
+  padding:10px 53px;
+background-color: #0505df;
+}
+
+.butpres{
+  padding:10px 45px;
+background-color: #1e1e90;
+}
+.butdis{
+  padding:10px 45px;
+background-color: #D1D1D1;
+}
+
+
+
+
+.butnorm:hover{
+background-color: #0505df;
+color: white;
+}
+
+.buthov:hover{
+background-color: #0505df;
+color: white;
+}
+
+.butpres:hover{
+background-color: #0505df;
+color: white;
+}
+
+.tabs {
+    margin: 30px;
+  }
+
+
+
+
+@media(max-width: 1219px){
+
+   span{
+  margin-left: -230px;
+ } 
+
+}
+
+@media(max-width: 973px){
+
+   span{
+  margin-left: -210px;
+ } 
+
+}
+
+
+
+
+@media (max-width: 768px){
+    span{
+      position: relative;
+ } 
+ .test_tabs{
+  display: none;
+ }
+   #delivery{
+    display: none;
+  }
+  #pickup{
+    display: none;
+  }
+  }
+
+@media (min-width: 768px){
+  .test_768{
+    display: none;
+  }
+  }
